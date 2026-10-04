@@ -14,13 +14,18 @@ function App() {
       <header className="header">
 
         <div className="brand">
-          <div className="logo"></div>
+  <div className="logo">
+    <img
+      src="/images/school-logo.jpeg"
+      alt="S.D. Jadhav School Logo"
+    />
+  </div>
 
-          <div>
-            <h1>S.D. Jadhav</h1>
-            <p>English Medium School</p>
-          </div>
-        </div>
+  <div>
+    <h1>S.D. Jadhav</h1>
+    <p>English Medium School</p>
+  </div>
+</div>
 
         <nav>
           <a href="#home">Home</a>
