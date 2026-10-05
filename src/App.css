@@ -485,3 +485,97 @@ footer p {
     text-align: center;
   }
 }
+.portal-btn {
+  background: #0b2d4d;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.portal-btn:hover {
+  background: #071f35;
+}
+/* SCHOOL PORTAL */
+
+.portal {
+  padding: 90px 7%;
+  text-align: center;
+  background: #f7f9fc;
+}
+
+.portal h2 {
+  font-size: 40px;
+  color: #0b2d4d;
+  margin-bottom: 12px;
+}
+
+.portal-subtitle {
+  color: #718096;
+  margin-bottom: 45px;
+}
+
+.portal-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.portal-card {
+  background: white;
+  padding: 38px 25px;
+  border-radius: 12px;
+  border: 1px solid #e3e9ef;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.portal-card:hover {
+  transform: translateY(-6px);
+}
+
+.portal-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.portal-card h3 {
+  color: #0b2d4d;
+  margin-bottom: 12px;
+}
+
+.portal-card p {
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 48px;
+}
+
+.portal-card button {
+  margin-top: 20px;
+  border: none;
+  background: #0b5cad;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.portal-card button:hover {
+  background: #084b8d;
+}
+
+@media (max-width: 800px) {
+  .portal-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .portal h2 {
+    font-size: 32px;
+  }
+}
