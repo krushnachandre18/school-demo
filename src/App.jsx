@@ -63,6 +63,7 @@ function App() {
             <a href="#admission" className="primary-btn">
               🎓 Admission Enquiry
             </a>
+            
             <a href="#about" className="secondary-btn">
               Explore School →
             </a>
@@ -229,7 +230,44 @@ function App() {
 
       </section>
 
+<section className="portal" id="portal">
+  <div className="section-label">SCHOOL PORTAL</div>
 
+  <h2>School Management Portal</h2>
+
+  <p className="portal-subtitle">
+    Secure access for students, staff and school office.
+  </p>
+
+  <div className="portal-cards">
+    <div className="portal-card">
+      <div className="portal-icon">🎓</div>
+      <h3>Student Portal</h3>
+      <p>
+        Attendance, academic records and student information.
+      </p>
+      <button>Student Login</button>
+    </div>
+
+    <div className="portal-card">
+      <div className="portal-icon">👨‍🏫</div>
+      <h3>Staff Portal</h3>
+      <p>
+        Attendance, class records and academic activities.
+      </p>
+      <button>Staff Login</button>
+    </div>
+
+    <div className="portal-card">
+      <div className="portal-icon">🏢</div>
+      <h3>Office Portal</h3>
+      <p>
+        Student records, reports and school administration.
+      </p>
+      <button>Office Login</button>
+    </div>
+  </div>
+</section>
       {/* CONTACT */}
       <section className="contact" id="contact">
 
