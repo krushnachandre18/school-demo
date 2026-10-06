@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [studentDashboard, setStudentDashboard] = useState(false);
   return (
     <div className="school-site">
 
@@ -246,7 +248,9 @@ function App() {
       <p>
         Attendance, academic records and student information.
       </p>
-      <button>Student Login</button>
+      <button onClick={() => setStudentDashboard(true)}>
+  Student Login
+</button>
     </div>
 
     <div className="portal-card">
